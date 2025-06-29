@@ -74,7 +74,8 @@ The dataset consists of 10 input features and 1 target feature:
 
 ## Live Web App (via Render)
 
-- 🌐 **Live URL**: *Coming Soon*
+- 🌐 **Live URL:**(https://gamestone-project.onrender.com)
+
 - **API Endpoint**: `/predictAPI` (POST method using JSON)
 
 ---
