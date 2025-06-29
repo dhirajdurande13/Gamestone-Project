@@ -1,0 +1,45 @@
+[ 2025-06-26 13:52:18,911 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.192.18.70:8000
+[ 2025-06-26 13:52:18,911 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-06-26 13:52:25,117 ] 61 root - INFO - Dataframe Gathered
+[ 2025-06-26 13:52:26,396 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:52:26] "POST /predict HTTP/1.1" 200 -
+[ 2025-06-26 13:52:26,618 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:52:26] "[36mGET /static/Image/diamond1.png HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:52:26,621 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:52:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:52:45,870 ] 61 root - INFO - Dataframe Gathered
+[ 2025-06-26 13:52:45,940 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:52:45] "POST /predict HTTP/1.1" 200 -
+[ 2025-06-26 13:52:45,951 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:52:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:52:46,126 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:52:46] "[36mGET /static/Image/diamond1.png HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:53:32,336 ] 61 root - INFO - Dataframe Gathered
+[ 2025-06-26 13:53:32,397 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:53:32] "POST /predict HTTP/1.1" 200 -
+[ 2025-06-26 13:53:32,410 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:53:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:53:32,608 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:53:32] "[36mGET /static/Image/diamond1.png HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:53:59,606 ] 61 root - INFO - Dataframe Gathered
+[ 2025-06-26 13:53:59,690 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:53:59] "POST /predict HTTP/1.1" 200 -
+[ 2025-06-26 13:53:59,702 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:53:59] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2025-06-26 13:53:59,871 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:53:59] "[36mGET /static/Image/diamond1.png HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:54:12,667 ] 61 root - INFO - Dataframe Gathered
+[ 2025-06-26 13:54:12,738 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:54:12] "POST /predict HTTP/1.1" 200 -
+[ 2025-06-26 13:54:12,751 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:54:12] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2025-06-26 13:54:12,919 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:54:12] "[36mGET /static/Image/diamond1.png HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:54:33,557 ] 61 root - INFO - Dataframe Gathered
+[ 2025-06-26 13:54:33,634 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:54:33] "POST /predict HTTP/1.1" 200 -
+[ 2025-06-26 13:54:33,646 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:54:33] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2025-06-26 13:54:33,816 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:54:33] "[36mGET /static/Image/diamond1.png HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:54:46,834 ] 61 root - INFO - Dataframe Gathered
+[ 2025-06-26 13:54:46,889 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:54:46] "POST /predict HTTP/1.1" 200 -
+[ 2025-06-26 13:54:46,901 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:54:46] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2025-06-26 13:54:47,106 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:54:47] "[36mGET /static/Image/diamond1.png HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:55:17,805 ] 61 root - INFO - Dataframe Gathered
+[ 2025-06-26 13:55:17,868 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:55:17] "POST /predict HTTP/1.1" 200 -
+[ 2025-06-26 13:55:17,879 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:55:17] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2025-06-26 13:55:18,064 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:55:18] "[36mGET /static/Image/diamond1.png HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:55:37,313 ] 61 root - INFO - Dataframe Gathered
+[ 2025-06-26 13:55:37,389 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:55:37] "POST /predict HTTP/1.1" 200 -
+[ 2025-06-26 13:55:37,401 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:55:37] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2025-06-26 13:55:37,568 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:55:37] "[36mGET /static/Image/diamond1.png HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:55:48,638 ] 61 root - INFO - Dataframe Gathered
+[ 2025-06-26 13:55:48,707 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:55:48] "POST /predict HTTP/1.1" 200 -
+[ 2025-06-26 13:55:48,719 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:55:48] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2025-06-26 13:55:48,898 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:55:48] "[36mGET /static/Image/diamond1.png HTTP/1.1[0m" 304 -

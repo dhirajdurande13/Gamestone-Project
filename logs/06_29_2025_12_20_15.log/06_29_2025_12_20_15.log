@@ -1,0 +1,11 @@
+[ 2025-06-29 12:20:18,204 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.248.170:8000
+[ 2025-06-29 12:20:18,204 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-06-29 12:20:18,400 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Jun/2025 12:20:18] "GET /predict HTTP/1.1" 200 -
+[ 2025-06-29 12:20:18,628 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Jun/2025 12:20:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-06-29 12:20:18,633 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Jun/2025 12:20:18] "[36mGET /static/Image/diamond1.png HTTP/1.1[0m" 304 -
+[ 2025-06-29 12:20:42,433 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Jun/2025 12:20:42] "GET /predict HTTP/1.1" 200 -
+[ 2025-06-29 12:20:42,474 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Jun/2025 12:20:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-06-29 12:20:42,686 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Jun/2025 12:20:42] "[36mGET /static/Image/diamond1.png HTTP/1.1[0m" 304 -

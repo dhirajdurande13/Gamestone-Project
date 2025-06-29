@@ -1,0 +1,20 @@
+[ 2025-06-26 13:31:28,895 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.192.18.70:8000
+[ 2025-06-26 13:31:28,895 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-06-26 13:32:53,208 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:32:53] "GET /predict HTTP/1.1" 200 -
+[ 2025-06-26 13:32:53,408 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:32:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:32:53,462 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:32:53] "[36mGET /static/Image/your_profile_pic.jpg HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:36:15,718 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:36:15] "GET /predict HTTP/1.1" 200 -
+[ 2025-06-26 13:36:15,736 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:36:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:36:15,967 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:36:15] "[33mGET /static/Image/your_profile_pic.jpg HTTP/1.1[0m" 404 -
+[ 2025-06-26 13:36:26,646 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:36:26] "GET /predict HTTP/1.1" 200 -
+[ 2025-06-26 13:36:26,672 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:36:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:36:26,885 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:36:26] "[33mGET /static/Image/your_profile_pic.jpg HTTP/1.1[0m" 404 -
+[ 2025-06-26 13:37:51,856 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:37:51] "GET /predict HTTP/1.1" 200 -
+[ 2025-06-26 13:37:51,874 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:37:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:37:52,108 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:37:52] "[33mGET /static/Image/your_profile_pic.jpg HTTP/1.1[0m" 404 -
+[ 2025-06-26 13:38:15,967 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:38:15] "GET /predict HTTP/1.1" 200 -
+[ 2025-06-26 13:38:15,987 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:38:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-06-26 13:38:16,215 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:38:16] "[33mGET /static/Image/your_profile_pic.jpg HTTP/1.1[0m" 404 -

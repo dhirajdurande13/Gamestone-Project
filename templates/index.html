@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gemstone Price Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+   
+    <h1>Gemstone Price Prediction</h1>
+    <img src="{{url_for('static', filename='Image/diamond1.png')}}" alt="Dimond image" class="profile">
+    <div class="form-box">
+    <form action="{{url_for('predict_datapoint')}}" method="POST">
+      <!-- Info Button -->
+        <div class="project-btn">
+          <a href="javascript:void(0)" onclick="document.getElementById('infoModal').style.display='block'" class="info-btn">
+  ℹ️Project
+</a>
+        </div>
+
+
+        <div class="form-group">
+            <label for="carat">Carat:</label>
+            <input type="text" id="carat" name="carat" placeholder="Enter carat value (float)">
+        </div>
+    
+        <div class="form-group">
+            <label for="depth">Depth:</label>
+            <input type="text" id="depth" name="depth" placeholder="Enter depth value (float)">
+        </div>
+
+        <div class="form-group">  
+            <label for="table">Table:</label>
+            <input type="text" id="table" name="table" placeholder="Enter table value (float)">
+        </div>
+        
+        <div class="form-group">
+            <label for="x">x:</label>
+            <input type="text" id="x" name="x" placeholder="Enter x value (float)">
+        </div>
+      
+        <div class="form-group">
+            <label for="y">y:</label>
+            <input type="text" id="y" name="y" placeholder="Enter y value (float)">
+        </div>
+      
+        <div class="form-group">
+            <label for="z">z:</label>
+            <input type="text" id="z" name="z" placeholder="Enter z value (float)">
+        </div>         
+      
+    <div class="form-group">
+      <label for="cut">Cut:</label>
+      <select id="cut" name="cut">
+        <option value="Fair">Fair</option>
+        <option value="Good">Good</option>
+        <option value="Very Good">Very Good</option>
+        <option value="Premium">Premium</option>
+        <option value="Ideal">Ideal</option>
+      </select>
+    </div>
+      
+    <div class="form-group">
+      <label for="color">Color:</label>
+      <select id="color" name="color">
+        <option value="D">D</option>
+        <option value="E">E</option>
+        <option value="F">F</option>
+        <option value="G">G</option>
+        <option value="H">H</option>
+        <option value="I">I</option>
+        <option value="J">J</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label for="clarity">Clarity:</label>
+      <select id="clarity" name="clarity">
+        <option value="I1">I1</option>
+        <option value="SI2">SI2</option>
+        <option value="SI1">SI1</option>
+        <option value="VS2">VS2</option>
+        <option value="VS1">VS1</option>
+        <option value="VVS2">VVS2</option>
+        <option value="VVS1">VVS1</option>
+        <option value="IF">IF</option>
+      </select>
+    </div>
+    
+    <div class="button"  style="clear:both; background-color: #cfe7d7;"></div>
+      <input type="submit" value="Predict">
+
+      
+
+<!-- Popup Modal -->
+<div id="infoModal" class="modal">
+  <div class="modal-content">
+    <span onclick="document.getElementById('infoModal').style.display='none'" class="close">&times;</span>
+    <h2>💎 Gemstone Price Prediction</h2>
+    <p>This app predicts the price of a gemstone (diamond) using machine learning. Fill the features and click Predict.</p>
+    
+    <h3>📌 Feature Details:</h3>
+    <ul>
+      <li><b>Carat:</b> Weight of the diamond (e.g., 0.7)</li>
+      <li><b>Cut:</b> Quality of the cut (Fair, Good, Very Good, Premium, Ideal)</li>
+      <li><b>Color:</b> Diamond color from D (best) to J (least)</li>
+      <li><b>Clarity:</b> Purity level (I1, SI2, SI1, VS2, VS1, VVS2, VVS1, IF)</li>
+      <li><b>Depth:</b> Total depth % (e.g., 61.5)</li>
+      <li><b>Table:</b> Width of top facet % (e.g., 57)</li>
+      <li><b>x/y/z:</b> Length, width, height in mm (e.g., x=5.5, y=5.4, z=3.5)</li>
+    </ul>
+
+    <h3>📋 Example Input:</h3>
+    <pre>
+Carat: 0.8
+Cut: Ideal
+Color: G
+Clarity: VS2
+Depth: 61.2
+Table: 56.0
+x: 5.9
+y: 5.8
+z: 3.7
+    </pre>
+  </div>
+</div>
+
+
+
+
+    </form>
+    </div>
+    <div>      
+    <h2>
+      Predicted Gemstone Price is : {{ results }}
+    </h2>
+  </body>
+</html>
